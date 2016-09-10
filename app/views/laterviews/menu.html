@@ -1,0 +1,20 @@
+<ul class="menu-container">
+    <li ng-if="menuCheck(14)" ng-show="sysMenu[1]=='flat'">
+        <div class="menu-title">综合查询</div>
+        <ul class="menu-list">
+            <li ng-if="menuCheck(18)">
+                <a href="#flat">
+                    <i class="ALiconfont icon-loudong" style="background-color:#38adff;font-size:32px"></i>
+                    按楼查看
+                </a>
+            </li>
+            <li ng-if="menuCheck(19)">
+                <a href="#college">
+                    <i class="ALiconfont icon-xuexiao" style="line-height: 45px;background-color:#02cf97;font-size:32px"></i>
+                    按学院查看
+                </a>
+            </li>
+        </ul>
+    </li>
+   
+</ul>
